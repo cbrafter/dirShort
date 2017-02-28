@@ -23,17 +23,17 @@ A Python and C file are provided that enable you to customise your terminal so t
 ## Example
 **From:**
 
-`~/Dropbox/documents/codeSnippets`
+`~/myFiles/documents/codeExamples`
 
 **To (gradually reducing terminal width):**
 
-`~/Dropbox/documen/codeSnippets`
+`~/myFiles/documen/codeExamples`
 
-`~/Dropb/docum/codeSnippets`
+`~/myFil/docum/codeExamples`
 
-`~/Dro/doc/codeSnippets`
+`~/myF/doc/codeExamples`
 
-`~/D/d/codeSnippets`
+`~/m/d/codeExamples`
 
 ## Notes
 - You may wish to tweek the limits in the file to suit your own terminal needs
