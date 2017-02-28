@@ -9,6 +9,7 @@ A Python and C file are provided that enable you to customise your terminal so t
 1. Place the script in the home directory
 2. Give the script the relevant permissions to execute on your system. `chmod 755 dirShort.py` for example.
 3. Add the following to your ~/.bashrc file (change the colors if you wish):
+
 `PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$(python3 $HOME/dirShort.py "$(dirs)")\[\033[00m\]\$ '`
 
 ### C - dirShort.c
@@ -16,15 +17,22 @@ A Python and C file are provided that enable you to customise your terminal so t
 2. Place the executable in the home directory. (`dirShort` is you used the above command)
 3. Give the executable the relevant permissions to execute on your system. `chmod 775 dirShort` for example.
 4. Add the following to your ~/.bashrc file (change the colors if you wish):
+
 `PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$($HOME/dirShort "$(dirs)")\[\033[00m\]\$ '`
 
 ## Example
 From:
+
 `~/Dropbox/documents/codeSnippets`
+
 To (gradually reducing terminal width):
+
 `~/Dropbox/documen/codeSnippets`
+
 `~/Dropb/docum/codeSnippets`
+
 `~/Dro/doc/codeSnippets`
+
 `~/D/d/codeSnippets`
 
 ## Notes
