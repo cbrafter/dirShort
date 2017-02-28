@@ -23,17 +23,17 @@ A Python and C file are provided that enable you to customise your terminal so t
 ## Example
 **From:**
 
-`~/myFiles/documents/codeExamples`
+`user@pc:~/myFiles/documents/codeExamples`
 
 **To (gradually reducing terminal width):**
 
-`~/myFiles/documen/codeExamples`
+`user@pc:~/myFiles/documen/codeExamples`
 
-`~/myFil/docum/codeExamples`
+`user@pc:~/myFil/docum/codeExamples`
 
-`~/myF/doc/codeExamples`
+`user@pc:~/myF/doc/codeExamples`
 
-`~/m/d/codeExamples`
+`user@pc:~/m/d/codeExamples`
 
 ## Notes
 - You may wish to tweek the limits in the file to suit your own terminal needs
