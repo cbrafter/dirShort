@@ -21,11 +21,11 @@ A Python and C file are provided that enable you to customise your terminal so t
 `PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$($HOME/dirShort "$(dirs)")\[\033[00m\]\$ '`
 
 ## Example
-From:
+**From:**
 
 `~/Dropbox/documents/codeSnippets`
 
-To (gradually reducing terminal width):
+**To (gradually reducing terminal width):**
 
 `~/Dropbox/documen/codeSnippets`
 
