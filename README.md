@@ -1,5 +1,5 @@
 # dirShort
-A dynamic working directory string directory shortener for BASH terminals.
+A dynamic working directory string shortener for BASH terminals.
 
 ## Description
 A Python and C file are provided that enable you to customise your terminal so that the working directory string will be shortened such that the string will not occupy more than ~40% of the terminal width by reducing the number of characters in any parent directory strings. The C version is faster than the Python version.
