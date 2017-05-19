@@ -1,20 +1,14 @@
 /* dirShort.c
-
-A program that allows the working directory string length to be dynamically
-shortened
+A program that allows the working directory string length to be dynamically shortened
 
 Author: Craig B. Rafter (https://github.com/cbrafter)
 Copyright: 2017, Craig Rafter, MIT License
 Date: 28/02/17
 Useage: Compile this file using:
-
 	gcc -O3 -Wall -std=c99 dirShort.c -o dirShort 
-
 place the executable in the home directory
 ensure you give the executeable any relevant permissions (chmod)
-
 Then add following to ~/.bashrc:
-
 	PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]$($HOME/dirShort "$(dirs)")\[\033[00m\]\$ '
  */
 #include<stdio.h>
@@ -66,7 +60,7 @@ int main(int argc, char **argv){
 		printf("%s\n", argv[1]);
 	}
 	else if(ntoken > 1){
-		unsigned short i, j, terminator;
+		int i, j, terminator;
 		
 		/*Leading path characters*/
 		if(argv[1][0] == '/'){
