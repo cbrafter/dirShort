@@ -37,4 +37,3 @@ A Python and C file are provided that enable you to customise your terminal so t
 
 ## Notes
 - You may wish to tweek the limits in the file to suit your own terminal needs
-- The programs are currently buggy for very narrow terminal widths (less than about 10 characters)
