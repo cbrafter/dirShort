@@ -41,11 +41,11 @@ int main(int argc, char **argv){
 	/*store directory tokens and number of tokens*/
 	char dirs[32][256];
 	const char delim[] = "/";
-	unsigned short ntoken = 0;
+	int ntoken = 0;
 	
 	struct winsize window; /*Window handle*/
     ioctl(0, TIOCGWINSZ, &window); /*Get window size object*/
-   	unsigned short cutoff = max(15, 0.4*window.ws_col - 15); /*point at which file path
+   	int cutoff = max(15, 0.3*window.ws_col - 15); /*point at which file path
    	shouldn't go past*/
 
 	/*Tokenise string into dirs*/
